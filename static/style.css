@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+* { margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: #12172b;
+  color: rgb(18, 5, 5);
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+}
+.arrange {
+  position: absolute;
+  width: 400px;
+  margin-bottom: 100px;
+  left: 5px;
+}
+.skills-area {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10%;
+}
+
+.skill {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.skill-title {
+  font-size: 18px;
+  margin-bottom: 1px;
+}
+
+.skill-bar {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  height: 10px;
+  z-index: -1;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.skill-fill {
+  background: blue;
+  height: 10px;
+  border-radius: 75px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+  overflow: hidden;
+}
+
+.skill-percent {
+  font-size: 10px;
+  
+}
+
+.html_css {
+  animation: html_css 2s;
+  width: 50%;
+}
+
+.js {
+  animation: js 2s;
+  width: 25%;
+}
+
+.sq {
+  animation: sq 2s;
+  width: 75%;
+}
+
+.py {
+  animation: py 2s;
+  width: 95%;
+}
+
+.git {
+  animation: git 2s;
+  width: 80%;
+}
+
+.heroku {
+  animation: heroku 2s;
+  width: 95%;
+}
+
+.file_serving {
+  animation: heroku 2s;
+  width: 75%;
+}
+
+@keyframes html_css {
+
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes js {
+  from {
+    width: 0;
+  }
+  to {
+    width: 25%;
+  }
+}
+@keyframes sq {
+  from {
+    width: 0;
+  }
+  to {
+    width: 75%;
+  }
+}
+@keyframes py {
+  from {
+    width: 0;
+  }
+  to {
+    width: 95%;
+  }
+}
+@keyframes git {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+@keyframes heroku {
+  from {
+    width: 0;
+  }
+  to {
+    width: 95%;
+  }
+}
+@keyframes file_serving {
+  from {
+    width: 0;
+  }
+  to {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .skills-area {
+    padding: 0 5%;
+  }
+}
+
