@@ -1,1 +1,1 @@
-https://github.com/heroku/heroku-buildpack-python.git
+dokku buildpacks:add scott-wright https://github.com/heroku/heroku-buildpack-python.git
