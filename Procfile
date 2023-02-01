@@ -1,1 +1,1 @@
-web: gunicorn resume_site.wsgi
+web: gunicorn --worker-tmp-dir /dev/shm resume_site.wsgi
