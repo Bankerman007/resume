@@ -1,17 +1,12 @@
 @charset "UTF-8";
 
-
-* { margin: 0;
-    padding: 0;
-}
-
 .move_links {
     position: absolute;
-    top: 240px;
-    right: 600px;
-    font-size: 18px;
-        
-}
+    width: 400px;
+    height: 20px;
+    right: 100px;
+    top: 100;
+      }
 
 
 
