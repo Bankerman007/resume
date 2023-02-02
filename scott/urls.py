@@ -10,4 +10,6 @@ urlpatterns = [
     path('roster/', views.roster, name='roster'),
     path('team_creator/', views.team_creator, name='team_creator'),
     path('prof_exp/', views.prof_exp, name='prof_exp'),
+    path('flask/', views.flask, name='flask_site'),
+    path('fastapi/', views.fastapi, name='API_Endpoint'),
 ]

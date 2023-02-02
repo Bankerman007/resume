@@ -26,4 +26,6 @@ urlpatterns = [
     path('roster/', include('scott.urls')),
     path('team_creator/', include('scott.urls')),
     path('prof_exp/', include('scott.urls')),
+    path('flask/', include('scott.urls')),
+    path('fastapi/', include('scott.urls')),
 ]

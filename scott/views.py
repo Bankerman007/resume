@@ -6,6 +6,12 @@ def base(request):
     return render(request, 'base.html',{})
     #return HttpResponse("Hello, world. Scott is hot.")
 
+def fastapi(request):
+    return render(request, 'fastapi.html',{})
+
+def flask(request):
+    return render(request, 'flask.html',{})
+
 def trade_bot(request):
     return render(request, 'trade_bot.html',{})
 
